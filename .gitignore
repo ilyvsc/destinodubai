@@ -13,14 +13,18 @@
 .vscode
 
 # formatting
-.prettierrc.json
-.eslintrc.json
+.prettierrc
+.eslintrc
 
 # production
+.vercel
 /build
 
 # dev
 tailwind.css
+postcss.config.js
+prettier.config.js
+tailwind.config.js
 
 # misc
 .DS_Store
@@ -37,5 +41,3 @@ yarn-error.log*
 package.json
 package-lock.json
 
-postcss.config.js
-tailwind.config.js
