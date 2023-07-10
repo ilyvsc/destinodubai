@@ -1,0 +1,20 @@
+{
+  "name": "destinodubai",
+  "version": "1.0.0",
+  "description": "Destino Dubai - Descontinuado",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./public/src/tailwind.css -o ./public/css/tailwind.css -w",
+    "minify": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/styles.css -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyvsc/destinodubai.git"
+  },
+  "author": "Luis Diaz",
+  "license": "MIT",
+
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
